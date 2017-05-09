@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Shortcuts",
+      "shortcuts": [
+        {
+          "acceptAllCertificates": false,
+          "bodyContent": "",
+          "description": "Send power button",
+          "feedback": "simple_response",
+          "headers": [],
+          "iconName": "bitsies_shutdown",
+          "id": 1,
+          "method": "GET",
+          "name": "Power",
+          "parameters": [],
+          "password": "",
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "http://IR_REMOTE_SERVER_IP/send?button\u003dpower",
+          "username": ""
+        },
+        {
+          "acceptAllCertificates": false,
+          "bodyContent": "",
+          "description": "Send source button",
+          "feedback": "simple_response",
+          "headers": [],
+          "iconName": "black_bluetooth",
+          "id": 2,
+          "method": "GET",
+          "name": "Source",
+          "parameters": [],
+          "password": "",
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "http://IR_REMOTE_SERVER_IP/send?button\u003dsource",
+          "username": ""
+        },
+        {
+          "acceptAllCertificates": false,
+          "bodyContent": "",
+          "description": "Send volume up button",
+          "feedback": "simple_response",
+          "headers": [],
+          "iconName": "black_volume_high",
+          "id": 3,
+          "method": "GET",
+          "name": "Volume Up",
+          "parameters": [],
+          "password": "",
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "http://IR_REMOTE_SERVER_IP/send?button\u003dvolume_up",
+          "username": ""
+        },
+        {
+          "acceptAllCertificates": false,
+          "bodyContent": "",
+          "description": "Send volume down button",
+          "feedback": "simple_response",
+          "headers": [],
+          "iconName": "black_volume_low",
+          "id": 4,
+          "method": "GET",
+          "name": "Volume Down",
+          "parameters": [],
+          "password": "",
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "http://IR_REMOTE_SERVER_IP/send?button\u003dvolume_down",
+          "username": ""
+        },
+        {
+          "acceptAllCertificates": false,
+          "bodyContent": "",
+          "description": "Send mute button",
+          "feedback": "simple_response",
+          "headers": [],
+          "iconName": "black_volume_mute",
+          "id": 5,
+          "method": "GET",
+          "name": "Mute",
+          "parameters": [],
+          "password": "",
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "http://IR_REMOTE_SERVER_IP/send?button\u003dmute",
+          "username": ""
+        }
+      ]
+    }
+  ],
+  "variables": []
+}
